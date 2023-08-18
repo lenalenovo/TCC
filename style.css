@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap");
+
+:root {
+  --rosa: #e6007e;
+  --branco: #ffff;
+  --preto: #231e1e;
+  --roxo-cinza: #4c5270;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--rosa);
+}
+
+header {
+  background-color: var(--branco);
+  color: var(--rosa);
+  display: flex;
+  box-shadow: 0 1px 6px 0 var(--preto);
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  white-space: nowrap;
+}
+
+#headerTitulo{
+  font-family: "Inria serif", serif;
+  font-size: 40px;
+  font-weight: 400;
+}
+.ContainerLogo {
+  justify-content: flex-start;
+  display: flex;
+  align-items: center;
+}
+
+.ContainerBusca {
+  border-radius: 15px;
+  width: 500px;
+  background-color: var(--rosa);
+  border: none;
+  height: 30px;
+  margin-right: 40px;
+  float: left;
+  margin-left: 275px;
+
+  &:hover {
+    color: var(--branco);
+    outline: none;
+  }
+}
+
+.logo {
+  width: 50px;
+  height: 80%;
+}
+
+.traco {
+  width: 46px;
+  height: 20px;
+  float: right;
+  margin-right: 100px;
+}
+
+footer {
+  background-color: var(--roxo-cinza);
+  height: 20px;
+}
+
+.textofooter {
+  text-align: center;
+  color: var(--branco);
+}
+
+.popup {
+  background-color: var(--roxo-cinza);
+  width: 1104px;
+  height: 397px;
+  margin-top: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.popupTitulo {
+  color: var(--branco);
+  font-family: "Inria Serif", serif;
+  font-size: 40px;
+  font-weight: 400;
+}
+.popupTexto {
+  font-family: "Inria Serif", serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: justify;
+  color: var(--branco);
+  padding: 33px;
+}
+
+section {
+  padding-top: 120px;
+}
+
+.areaNoticias{
+  display: flex;
+  flex-direction: row;
+  margin-top: -136px;
+}
+
+.noticiasTitulo{
+  font-family: "Inria Serif", serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: var(--branco);
+  margin-left: 29px;
+}
+
+#textoNoticia{
+  color: var(--branco);
+  font-family: 'Inria Serif', serif;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: justify;
+}
+
+.noticiaImagem{
+  width: 219px;
+  height: 187px;
+}
+
+.noticias {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-around;
+  padding-top: 22px;
+  gap: 15px;
+  width: 100%;
+}
+
+.montagem {
+  width: 219px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
