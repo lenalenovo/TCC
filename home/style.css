@@ -202,6 +202,7 @@ section {
   display: flex;
   flex-direction: row;
   padding-top: 10px;
+
 }
 
 .noticiasTitulo{
@@ -209,7 +210,7 @@ section {
     font-size: 30px;
     font-weight: 400;
     color: var(--branco);
-    margin-left: 155px;
+    margin-left: 63px;
 }
 
 #textoNoticia{
@@ -232,7 +233,9 @@ section {
   /* justify-content: space-around; */
   gap: 88px;
   position: relative;
-  left: 160px;
+  left: 5.1vw;
+  width: 90vw;
+
 }
 
 .montagem {
